@@ -1,0 +1,98 @@
+/* Center container styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: white;
+   z-index: -1;
+    margin-top: 65px;
+}
+
+/* Box for login content */
+.login-box {
+    width: 360px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.heading_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.yicon{
+    color: red;
+    font-size: 30px !important;
+}
+
+/* Title */
+.login-box h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Subtitle */
+.login-box p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Button container */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Buttons styling */
+.button-group button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cancel button styling */
+.cancel-btn {
+    background-color: #ddd;
+    color: #555;
+}
+
+/* Signup button styling */
+.signup-btn {
+    background-color: #1976d2;
+    color: #fff;
+}
+
+/* Login button styling */
+.login-btn {
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+/* Button hover effects */
+.button-group button:hover {
+    opacity: 0.9;
+}

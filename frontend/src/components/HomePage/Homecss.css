@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HomeMain {
+    position: fixed;
+    top: 50px;
+
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    max-height: 92vh;
+    padding: 10px;
+}
+
+
+
+.Home_wrapper {
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.sideHome {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tab_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 15px 50px 15px 50px;
+
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.tab_wrapper::-webkit-scrollbar {
+    display: none;
+    /* Height of the horizontal scrollbar */
+}
+
+.tab_btn {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    white-space: nowrap;
+    border: none;
+    background-color: gainsboro;
+}
+
+.videoPage {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 55px;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    padding-top: 50px;
+
+}
+
+.video_card {
+    width: 360px;
+
+
+
+}
+
+.sideVideo {
+    width: 300px;
+}
+
+.image_wrapper {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.thumbnail {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.title_wrapper {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    padding: 10px 10px 0px 10px;
+    gap: 13px;
+    white-space: wrap;
+}
+
+.channelpic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.view_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    gap: 5px;
+    margin-left: 57px;
+    margin-top: -10px;
+}
+
+.views {
+    color: rgba(63, 54, 54, 0.823);
+}
+
+@media screen and (max-width:735px) {
+
+    .tab_btn {
+        padding: 3px 8px;
+        font-size: 17px;
+
+    }
+
+    .video_card {
+        width: 300px;
+
+border: 2px solid red;
+
+    }
+        .sideVideo {
+            width: 270px;
+        }
+               
+}
+@media screen and (max-width:670px) {
+
+    .video_card {
+            width: 270px;
+    
+            border: 2px solid red;
+    
+        }
+                .sideVideo {
+                    width: 240px;
+                }
+                                .view_wrapper{
+                                    font-size: 16px;
+                                }
+                                                                .title_wrapper h3{
+                                                                    font-size: 16px !important;
+                                                                }
+    
+}
+@media screen and (max-width:604px) {
+
+    
+         .sideVideo {
+             width: 240px;
+         }
+       
+}
+@media screen and (max-width:325px) {
+        .sideVideo {
+                width: 200px;
+            }
+                         .title_wrapper h3 {
+                             font-size: 12px !important;
+                         }
+    
+}

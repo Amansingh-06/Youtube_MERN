@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav {
+    z-index: 30;
+    display: flex;
+    padding: 5px 0px;
+   
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+
+}
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    text-decoration: none;
+}
+
+.menuicon {
+    cursor: pointer;
+}
+
+.youtubeicon {
+    font-size: 45px !important;
+    color: red;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.Youtube_text {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icon_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.input_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 45%;
+}
+
+.input_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.input_wrapper input {
+    width: 80%;
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 50px 0% 0% 50px;
+    outline: none;
+    height: 100%;
+    border: 1px solid gray;
+
+
+}
+
+.input_wrapper .searchbtn {
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 0px 50px 50px 0px;
+    border: 1px solid gray;
+
+}
+
+.mic {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+.ChannelDropDown{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    white-space: nowrap;
+    
+
+    
+}
+.ChannelDropDown p{
+    padding: 6px;
+    background-color: rgb(124, 109, 109);
+}
+.ChannelDropDown p:hover{
+    background-color: grey;
+    color: white;
+}
+.ChannelDropDownHide{
+    display: none;
+}
+
+
+
+.Profilepage {
+    position: absolute;
+    border: 2px solid black;
+    top:50px;
+    right:30px;
+    
+    gap:10px
+    
+}
+.Profilepagehide{
+    display: none;
+}
+.profile{
+    padding: 2px 6px;
+    
+    background-color: rgb(88, 83, 83);
+    color: wheat;
+}
+.profile:hover{
+    background-color: gray;
+    cursor: pointer;
+    
+}
+
+.videoUpload {
+    cursor: pointer;
+}
+
+.notification {
+    cursor: pointer;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    border: 1px gray solid;
+    object-fit: contain;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.navimg {
+    width: 100%;
+    height: 100%;
+
+}
+
+@media screen and (max-width:758px) {
+    .Nav {
+
+        padding: 2px 10px;
+
+    }
+
+    .first {
+
+        gap: 25px;
+    }
+
+    .youtubeicon {
+        font-size: 40px !important;
+
+    }
+
+    .Youtube_text {
+
+        font-size: 20px;
+    }
+
+
+
+    .input_main {
+
+
+        width: 45%;
+    }
+
+
+
+    .input_wrapper input {
+        width: 80%;
+        padding: 2px 3px;
+        font-size: 20px;
+
+
+
+
+    }
+
+    .input_wrapper .searchbtn {
+        width: 10%;
+        height: 100%;
+        padding: 2px;
+
+
+    }
+
+    .mic {
+        padding: 1px;
+
+    }
+
+    .third {
+
+        gap: 22px;
+    }
+
+
+
+    .navimg {
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+@media screen and (max-width:546px) {
+    .youtubeicon {
+        font-size: 35px !important;
+
+    }
+
+    .Nav {
+
+        padding: 2px 6px;
+
+    }
+
+    .first {
+
+        gap: 15px;
+    }
+
+    .Youtube_text {
+        display: none;
+    }
+
+    .mic {
+        padding: 0px;
+
+    }
+
+
+
+    .input_wrapper input {
+
+
+        font-size: 18px;
+
+
+
+    }
+
+    .input_wrapper .searchbtn {
+        width: 10%;
+
+
+        padding: 0px 10px;
+
+    }
+
+    .user {
+        width: 30px;
+        height: 30px;
+    }
+
+    .third {
+
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .Nav {
+
+        padding: 2px;
+
+    }
+
+    .first {
+
+        gap: 8px;
+    }
+
+    .youtubeicon {
+        font-size: 25px !important;
+
+    }
+
+    .mic {
+        display: none;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .third {
+        gap: 3px
+    }
+
+    .user {
+        width: 22px;
+        height: 22px;
+    }
+}
+

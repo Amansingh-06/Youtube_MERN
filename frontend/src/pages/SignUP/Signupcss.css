@@ -1,0 +1,103 @@
+/* SignupPage.css */
+
+.signupContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.signupBox {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.signupTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.inputWrapper {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.inputWrapper label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.inputWrapper input[type="text"],
+.inputWrapper input[type="email"],
+.inputWrapper input[type="password"],
+.inputWrapper input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.inputWrapper input:focus {
+    border-color: #3ea6ff;
+}
+
+.profilePreview {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.signupBtn,
+.homeBtn {
+    flex: 1;
+    padding: 0.7rem;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signupBtn {
+    background-color: #3ea6ff;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+.signupBtn:hover {
+    background-color: #357ae8;
+}
+
+.homeBtn {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.homeBtn:hover {
+    background-color: #e0e0e0;
+}

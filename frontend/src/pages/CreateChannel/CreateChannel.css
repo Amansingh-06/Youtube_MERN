@@ -1,0 +1,218 @@
+/* CreateChannel.css */
+
+.createChannelPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+
+}
+
+.createChannelContainer {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.createChannelTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    border: 2px solid green;
+}
+
+.profilePicSection {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profilePicLabel {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.profilePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.fileInput {
+    display: none;
+}
+
+.uploadText {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formLabel {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.formInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.termsSection {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.termsText {
+    font-size: 12px;
+    color: #555;
+}
+
+.termsLink {
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+.termsLink:hover {
+    text-decoration: underline;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.createChannelBtn {
+    width: 48%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.createChannelBtn {
+    background-color: #cc0000;
+    color: white;
+    font-weight: bold;
+}
+
+.createChannelBtn:hover {
+    background-color: #e60000;
+}
+
+
+.cancelBtn button {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid green;
+    padding: 12px 18px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #767474;
+
+
+}
+
+
+.cancelBtn button:hover {
+    background-color: #e0e0e0;
+    color: black;
+}
+@media screen and (max-width:1260px) {
+    .createChannelContainer {
+    
+            padding: 20px;
+    
+        }
+                .createChannelTitle {
+                    font-size: 20px;
+                    font-weight: 400;
+        
+                    margin-bottom: 10px;
+        
+                }
+}
+
+@media screen and (max-width:500px) {
+    .createChannelContainer {
+
+        padding: 25px;
+
+    }
+
+    .createChannelTitle {
+        font-size: 20px;
+        font-weight: 400;
+
+        margin-bottom: 10px;
+
+    }
+
+    .profilePic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #ccc;
+    }
+
+    .cancelBtn button {
+
+        padding: 8px 12px;
+        font-weight: 500;
+
+        color: white;
+        font-size: 12px;
+
+
+
+    }
+
+    .createChannelBtn {
+        width: 32%;
+        padding: 8px;
+        font-size: 12px;
+        
+        font-weight: 400;
+    }
+        .createChannelContainer {
+            
+            padding: 20px;
+         
+            width: 300px;
+           
+        }
+                .createChannelTitle {
+                    font-size: 18px;
+                    font-weight: 400;
+                    
+                }
+
+
+}
